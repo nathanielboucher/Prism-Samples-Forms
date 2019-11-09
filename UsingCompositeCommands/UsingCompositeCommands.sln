@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2046
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingCompositeCommands.Android", "UsingCompositeCommands\UsingCompositeCommands.Android\UsingCompositeCommands.Android.csproj", "{C87A6B01-5E8E-4360-9E80-FEE89B6944E1}"
 EndProject
@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingCompositeCommands.iOS"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingCompositeCommands.UWP", "UsingCompositeCommands\UsingCompositeCommands.UWP\UsingCompositeCommands.UWP.csproj", "{39B80191-31CC-4B79-B565-1C83BFFCD69E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingCompositeCommands", "UsingCompositeCommands\UsingCompositeCommands\UsingCompositeCommands.csproj", "{DF83EA0D-4766-4CF4-AC9E-CFA122F78726}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingCompositeCommands", "UsingCompositeCommands\UsingCompositeCommands\UsingCompositeCommands.csproj", "{DF83EA0D-4766-4CF4-AC9E-CFA122F78726}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
