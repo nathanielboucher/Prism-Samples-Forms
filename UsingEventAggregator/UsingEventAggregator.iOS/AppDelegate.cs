@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Prism.Ioc;
+﻿using Prism.Ioc;
 using Foundation;
 using Prism.Events;
 using UIKit;
