@@ -28,7 +28,25 @@ namespace UsingEventAggregator
 
         #region IDisposable
 
-        public virtual void Dispose() { }
+        private bool _isDisposed = false;
+        public virtual void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (_isDisposed) return;
+
+            if (disposing)
+            {
+                // Managed
+            }
+
+            // Unmanaged
+            _isDisposed = true;
+        }
         
         #endregion
 
