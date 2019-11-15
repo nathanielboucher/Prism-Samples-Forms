@@ -28,9 +28,6 @@ namespace UsingEventAggregator.Droid
             Toast.MakeText(this, $"Hi {args.Message}, from Android", ToastLength.Long).Show();
         }
 
-        public void RegisterTypes(IContainerRegistry containerRegistry)
-        {
 
-        }
     }
 }
